@@ -1,0 +1,238 @@
+body{
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474
+}
+nav{
+    position: fixed;
+    background-color: #fff;
+    margin-left: -1pc;
+    margin-top: -1pc;
+}
+.logo1{
+    width: 25%;
+    margin-left: 7pc;
+    position: relative;
+}
+.logo2{
+    width: 3%;
+    display: block;
+    margin: auto;
+}
+nav{
+    display: inline-flex;
+    margin-left: -1.7pc;
+}
+ul{
+    margin: auto;
+    display: inline-flex;
+    margin-right: 8pc;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 15px;  
+}
+.a1{
+    color: #00b39b;
+}
+.a2{
+    color: #77807c;
+}
+.a2:hover{
+    color:  #00b39b;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    color:#00b39b ;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin: 1em;
+    font-size: 2.125rem;
+}
+p{
+    display: inline-flex;
+    justify-content: center;
+}
+.p1{
+    margin-left: 7pc;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.p2{
+    margin-right: 7pc;
+    margin-left: 2pc;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.s1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6pc;
+}
+.div1{
+    color:#fff;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    padding-right: 75px;
+    display:block;
+    padding: 5pc;
+    padding-top: 2pc;
+    padding-bottom: 2pc;
+}
+#div1{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    margin-left: 7pc;
+    margin: 1pc;
+}
+#div2{
+    background-color: #3d83df;
+    border-radius: 10px;
+    margin: 1pc;
+}
+#div3{
+    background-color: #1b2734;
+    border-radius: 10px; 
+    margin: 1pc;
+    margin-right: 8pc;
+}
+.div2{
+    margin-bottom: 2pc;
+}
+.select1{
+    background-color: #00ccb1;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+}
+.select2{
+    margin-bottom: 0%;
+    background-color: #3d83df;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+}
+.select3{
+    background-color: #1b2734;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+}
+.s2>div{
+    display: flex;
+}
+.h{
+    width: 33%;
+    margin-left: 7pc;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.row{
+    background-color: #e5faf8;
+    margin-left: -1pc;
+    margin-right: -8px;
+    display: inline-flex;
+    padding-right: 22.3pc;
+}
+.DIV{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 5pc;
+    margin-right: -20pc;
+}
+#DIV{
+    margin: auto;
+    background: #fff;
+    padding-right: 1pc;
+    padding-left: 2pc;
+    padding-bottom: 1pc;
+    padding-top: 2pc;
+    border-radius: 6px;
+}
+.thefirstsection{
+    padding: 69px;
+    color: #00b39b;
+    margin-left: 4pc;
+    width: 63%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.p3{
+    margin-left: 8pc;
+}
+.img{
+    display: block;
+}
+#div{
+    text-align: center;
+    padding-bottom: 4pc;
+}
+#div>h1{
+    color: #00b39b;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.image-section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5pc;
+    margin-right: 6pc;
+}
+.image{
+    border-radius: 8px;
+    box-shadow: #383737;
+}
+.underimage{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.boxshadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgba(209, 206, 206, 0.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+    margin-bottom: 1pc;
+}
+.button{
+    border: none;
+    background: #3d83df;
+    vertical-align: middle;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0.5pc;
+    margin-bottom: 1.2pc;
+    margin-top: 1.2pc;
+    margin-right: 12px;
+}
+#lastsection{
+    margin-left: -38.5pc;
+}
+.last{
+    display: block;
+    text-align: center;
+    margin: 5pc;
+}
+footer{
+    text-align: center;
+}
